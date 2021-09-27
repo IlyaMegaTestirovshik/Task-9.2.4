@@ -1,5 +1,4 @@
-                      Задание 12.7.3
-
+                    
 money=int(input('vvedite summu'))
 per_cent= {"Sber_Bank": 4.0,"Alfa_Bank":5.0, "Pochta_Bank":5.5,"Sovkom_Bank":6.0}
 
