@@ -11,5 +11,4 @@ deposit_tuple=money*sber,money*alfa,money*pochta,money*sovkom
 deposit=list(deposit_tuple)
 max_deposit=max(deposit)
 print(deposit)
-print(max_deposit)
-print(type(deposit))
+print("maksimalnaya summa, cotoruyu vi smozhete zarabotat-",max_deposit)
