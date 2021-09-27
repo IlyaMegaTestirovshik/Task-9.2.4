@@ -1,0 +1,16 @@
+                      Задание 12.7.3
+
+money=int(input('vvedite summu'))
+per_cent= {"Sber_Bank": 4.0,"Alfa_Bank":5.0, "Pochta_Bank":5.5,"Sovkom_Bank":6.0}
+
+sber=0.04
+alfa=0.05
+pochta=0.055
+sovok=0.06
+
+deposit_tuple=money*sber,money*alfa,money*pochta,money*sovok
+deposit=list(deposit_tuple)
+max_deposit=max(deposit)
+print(deposit)
+print(max_deposit)
+print(type(deposit))
