@@ -1,6 +1,6 @@
 
-mnozhestvo = list(map(int, input("¬ведите любые числа через пробел").split()))
-chislo=int(input("¬ведите любое число"))
+mnozhestvo = list(map(int, input("vvedite chisla cherez probel").split()))
+chislo=int(input("vvedite chislo"))
 def sortirovka(mnozhestvo):
     for i in range(len(mnozhestvo)):
         for j in range(len(mnozhestvo) - i - 1):
@@ -30,5 +30,5 @@ right=len(mnozhestvo)
 
 index=binary_search(array, element, left, right)
 if index == False:
-    print("„исло не найдено")
+    print("chislo ne naideno")
 else:print(index-1)
